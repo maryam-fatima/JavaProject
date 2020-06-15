@@ -15,7 +15,7 @@ Table Tantrum
      javafx.graphics 
  ````   
 ## TO RUN
- The main file(containing the method **main**) of the code is Gui.java
+ The main file(containing the method **main**) of the code is **Gui.java**
  You can either use the java IDE ecclipse, netbean e.t.c to run the code
  
  Also, you can run a Jar from the Command Prompt. Press the Win key + X hotkey and select Command Prompt (Admin) to open it as  administrator.Then input 
