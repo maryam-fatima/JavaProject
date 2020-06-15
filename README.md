@@ -33,17 +33,17 @@ Table Tantrum
  TableTantrum.jar to run the program.
 
 ## SYSTEM OUTPUT
-  ![Menu Screen](menu.png)
+  ![Menu Screen](/Output screen/menu.png)
   
-  ![select Level to Play](Level.png)
+  ![select Level to Play](/Output screen/Level.png)
   
-  ![Play Screen](PlayScreen.png)
+  ![Play Screen](/Output screen/PlayScreen.png)
   
-  ![Revise tables from **2-15**](RevisionTables.png)
+  ![Revise tables from **2-15**](/Output screen/RevisionTables.png)
   
-  ![View your 10 recent Scores](Scores.png)
+  ![View your 10 recent Scores](/Output screen/Scores.png)
   
-  ![For instance, table of 2](Table.png)
+  ![For instance, table of 2](/Output screen/Table.png)
   
   ![Pictorial representation of your Performance](Graph.png)
      
