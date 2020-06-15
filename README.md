@@ -18,14 +18,13 @@ Table Tantrum
  The main file(containing the method **main**) of the code is Gui.java
  You can either use the java IDE ecclipse, netbean e.t.c to run the code
  
- Also, you can run a Jar from the Command Prompt. Press the Win key + X hotkey and select Command Prompt (Admin) to open it as  administrator.
-Then input 
+ Also, you can run a Jar from the Command Prompt. Press the Win key + X hotkey and select Command Prompt (Admin) to open it as  administrator.Then input 
 ```
 java -jar c:pathtojarfile.jar
 ````
-in the Command Prompt and press Enter. 
+in the Command Prompt and press Enter
+
 **Replace c:pathtojarfile.jar with the actual path and file title of the Jar you need to run in Windows.**
-run jar with cmd
 
 Alternatively, you can open the folder that includes the Jar in the Command Prompt first by entering ‘cd /’ followed by the directory. Then, you can input 
 ````
