@@ -26,12 +26,14 @@ in the Command Prompt and press Enter
 
 **Replace c:pathtojarfile.jar with the actual path and file title of the Jar you need to run in Windows.**
 
-Alternatively, you can open the folder that includes the Jar in the Command Prompt first by entering ‘cd /’ followed by the directory. Then, you can input 
+Alternatively, you can open the folder that includes the Jar in the Command Prompt 
+* first by entering ‘cd /’ followed by the directory. 
+* Then, you can input 
 ````
 java -jar file.jar
 `````
 without the folder path.
-That will open the executable Jar file so long as it contains a manifest file to specify the application’s entry point. 
+That will open the executable Jar file.
 
 ## SYSTEM OUTPUT
 Menu Screen
