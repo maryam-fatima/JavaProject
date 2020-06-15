@@ -17,20 +17,22 @@ Table Tantrum
 ## TO RUN
  The main file(containing the method **main**) of the code is Gui.java
  You can either use the java IDE ecclipse, netbean e.t.c to run the code
- or you can run it on command prompt(Windows) by setting path to directry
- containing jdk1.8 or above. And then changing directory to folder containing
- the code and using command
- ```` 
- javac Gui.java
- ``````
- to compile and then
-```` 
- java Gui
- ``````
- to run the code.
  
- Also if your device has jdk 8 or above already installed you can just click 
- TableTantrum.jar to run the program.
+ Also, you can run a Jar from the Command Prompt. Press the Win key + X hotkey and select Command Prompt (Admin) to open it as  administrator.
+Then input 
+```
+java -jar c:pathtojarfile.jar
+````
+in the Command Prompt and press Enter. 
+**Replace c:pathtojarfile.jar with the actual path and file title of the Jar you need to run in Windows.**
+run jar with cmd
+
+Alternatively, you can open the folder that includes the Jar in the Command Prompt first by entering ‘cd /’ followed by the directory. Then, you can input 
+````
+java -jar file.jar
+`````
+without the folder path.
+That will open the executable Jar file so long as it contains a manifest file to specify the application’s entry point. 
 
 ## SYSTEM OUTPUT
 Menu Screen
