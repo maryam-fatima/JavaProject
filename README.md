@@ -44,12 +44,12 @@ select Level to Play
   
 Revise tables from **2-15**  
   ![Revise tables from **2-15**](RevisionTables.png)
+  
+For instance, table of 2 
+  ![For instance, table of 2](Table.png)
  
  View your 10 recent Scores
   ![View your 10 recent Scores](Scores.png)
-  
- For instance, table of 2 
-  ![For instance, table of 2](Table.png)
  
  Pictorial representation of your Performance
   ![Pictorial representation of your Performance](Graph.png)
