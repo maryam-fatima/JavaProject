@@ -34,11 +34,17 @@ Table Tantrum
 
 ## SYSTEM OUTPUT
   ![Menu Screen](menu.png)
+  
   ![select Level to Play](Level.png)
+  
   ![Play Screen](PlayScreen.png)
+  
   ![Revise tables from **2-15**](RevisionTables.png)
+  
   ![View your 10 recent Scores](Scores.png)
+  
   ![For instance, table of 2](Table.png)
+  
   ![Pictorial representation of your Performance](Graph.png)
      
 ## AUTHORS
