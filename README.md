@@ -26,14 +26,14 @@ in the Command Prompt and press Enter
 
 **Replace c:pathtojarfile.jar with the actual path and file title of the Jar you need to run in Windows.**
 
-Alternatively, you can open the folder that includes the Jar in the Command Prompt 
-* first by entering ‘cd /’ followed by the directory. 
-* Then, you can input 
+Alternatively, you can open the folder that includes the Jar in the Command Prompt. first by entering ‘cd /’ followed by the directory. 
+Then, you can input 
 ````
 java -jar file.jar
 `````
 without the folder path.
-That will open the executable Jar file.
+
+That will open the executable Jar file and game will start.
 
 ## SYSTEM OUTPUT
 Menu Screen
