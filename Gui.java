@@ -76,8 +76,8 @@ public class Gui extends Application{
 			
 		args = new Stage(StageStyle.UNDECORATED);
 		
-	    BackgroundFill bf_0 = new BackgroundFill(Color.rgb(60, 105, 132),null,null); 
-	    Background bg0 = new Background(bf_0); 
+	        BackgroundFill bf_0 = new BackgroundFill(Color.rgb(60, 105, 132),null,null); 
+	        Background bg0 = new Background(bf_0); 
 	   
 		BackgroundFill bf_1 = new BackgroundFill(Color.rgb(153, 255, 102),null,null); 
 		Background bg1 = new Background(bf_1);
@@ -467,7 +467,8 @@ public class Gui extends Application{
 					Thread.sleep(interval); }
 				 	closePlay();
 			}
-			catch (InterruptedException | IOException | IllegalAccessException | IllegalArgumentException | InvocationTargetException e) 
+			catch (InterruptedException | IOException | IllegalAccessException | IllegalArgumentException
+			       | InvocationTargetException e) 
 			{e.printStackTrace(); } 
 			
 		});
@@ -486,7 +487,7 @@ public class Gui extends Application{
 		    	     
 	    if( i == 10) {
 		    	 
-	    	RandomProblem(Level);//generate random problem
+	    	    RandomProblem(Level);//generate random problem
 		    problems[i] = (l.getPrblm()).toString();
 		    answers[i] = Integer.toString((l.getPrblm()).getValue());			  
 
@@ -507,20 +508,20 @@ public class Gui extends Application{
 	    	i++;
 	    	while(true) {
 			    	 
-			    //generate random problem 
-			    RandomProblem(Level);  	 
-			    boolean contains = false;		         
-			    for (String s: answers) {
-			    	if (s.equals("" + (l.getPrblm()).getValue()))
+			 //generate random problem 
+			  RandomProblem(Level);  	 
+			  boolean contains = false;		         
+			  for (String s: answers) {
+			  	if (s.equals("" + (l.getPrblm()).getValue()))
 			    		 contains = true;
 				 }//end for
 			
-			    if(!contains) {
+			  if(!contains) {
 			    	
 			    	problems[i] = (l.getPrblm()).toString();
 			    	answers[i] = Integer.toString((l.getPrblm()).getValue());
 			    	break;
-			    }//end if
+			   }//end if
 			    
 	    	}//end while
 			     
@@ -694,7 +695,7 @@ public class Gui extends Application{
 
 	private void resetValues(){
 			
-		startFlag = false;
+	    startFlag = false;
 	    gameoverFlag = false;
 		    
 	    for(int j = 0 ;j < problems.length ; j++) 
@@ -702,22 +703,22 @@ public class Gui extends Application{
 	    for(int j = 0 ;j < answers.length ; j++) 
 	    	answers[j] = "999";
 		    
-		S = "";
+	    S = "";
 	    i = -1;
 	    scoreString = "SCORE: ";
 	    (l.getPrblm()).setFirstNum(0);
-		(l.getPrblm()).setSecondNum(0);
-		score = 0;
-		interval = 2700;
-		RefreshTiles();
+	    (l.getPrblm()).setSecondNum(0);
+	    score = 0;
+	    interval = 2700;
+	    RefreshTiles();
 		
-		Platform.runLater(() ->{
+	    Platform.runLater(() ->{
 			
-			//update warning tile
-			warning_tile.setText("Don't let the orange area reach here!");
-			//go back to menu
-			args.setScene(Menu);
-		});
+		//update warning tile
+		warning_tile.setText("Don't let the orange area reach here!");
+		//go back to menu
+		args.setScene(Menu);
+	    });
 		    
 	}//end method resetValues
 		
@@ -725,17 +726,12 @@ public class Gui extends Application{
 		if(gameoverFlag){
 				
 			System.out.println("This function is executing");
-
 			record.writingFile();
 			resetValues();		        
-		    return;
-
+		        return;
 		}//end if
 	}//end method closePlay
-	
-	/*public static int getInterval() {
-		return interval;
-	}*/
+
 	private void reduceInterval(){
 		
 		if( interval > 1500)
@@ -743,11 +739,12 @@ public class Gui extends Application{
 	}//end method reduceInterval
 		
 	
-	private BarChart<String, Number> createGraph() throws IOException, IllegalAccessException, IllegalArgumentException, InvocationTargetException{ 	
+	private BarChart<String, Number> createGraph() throws IOException, IllegalAccessException, IllegalArgumentException, 
+	InvocationTargetException{ 	
 
 		final CategoryAxis xAxis = new CategoryAxis();
-	    final NumberAxis yAxis = new NumberAxis();
-	    bc = new BarChart<String,Number>(xAxis,yAxis); 
+	    	final NumberAxis yAxis = new NumberAxis();
+	   	bc = new BarChart<String,Number>(xAxis,yAxis); 
 		series1 = new XYChart.Series<String, Number>();
 		
 		
