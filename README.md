@@ -45,7 +45,7 @@ Table Tantrum
   
   ![For instance, table of 2](/Output screen/Table.png)
   
-  ![Pictorial representation of your Performance](Graph.png)
+  ![Pictorial representation of your Performance](/Output screen/Graph.png)
      
 ## AUTHORS
  Fatima Seemab
